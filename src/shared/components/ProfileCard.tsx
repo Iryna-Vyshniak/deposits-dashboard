@@ -2,7 +2,7 @@ interface ProfileCardProps {
   compact?: boolean;
 }
 
-const userAvatar = '/assets/scott-grant.webp';
+const userAvatar = '/assets/scott-grant.png';
 
 export function ProfileCard({ compact = false }: ProfileCardProps) {
   return (

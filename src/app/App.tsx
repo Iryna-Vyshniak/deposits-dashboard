@@ -1,5 +1,10 @@
-
+import { AppShell } from '../shared/components/AppShell';
+import { DepositsPage } from '../features/deposits/components/DepositsPage';
 
 export function App() {
-  return <h1>Hello React19!</h1>;
+  return (
+    <AppShell>
+      <DepositsPage />
+    </AppShell>
+  );
 }
